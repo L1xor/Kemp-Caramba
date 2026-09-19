@@ -70,8 +70,8 @@ export const contactInfo: ContactInfo = {
   responsiblePerson: "Petr Novák, provozní manažer kempu",
   googleMapsUrl: "https://maps.app.goo.gl/un1b1Amombd2KhFs7",
   coordinates: {
-    lat: 50.701123,
-    lng: 14.838456,
+    lat: 50.70654472812412,
+    lng: 14.852925106746378,
   },
 };
 
