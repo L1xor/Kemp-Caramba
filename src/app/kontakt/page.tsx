@@ -106,9 +106,9 @@ export default function KontaktPage() {
                     Příjezd autem
                   </h3>
                   <p className="mt-1 text-sm leading-relaxed text-stone-600">
-                    Z Prahy po dálnici D8 a silnici č. 9 do Doks, dále směr Hamry na Jezeře.
-                    Cesta trvá přibližně 70 minut. Vyhrazené parkování je přímo u vjezdu
-                    do areálu.
+                    Z Prahy po dálnici D8 a silnici č. 9 směr Stráž pod Ralskem, dále
+                    na Hamr na Jezeře. Cesta trvá přibližně 70 minut. Vyhrazené
+                    parkování je přímo u vjezdu do areálu.
                   </p>
                 </div>
               </div>
@@ -121,9 +121,9 @@ export default function KontaktPage() {
                     MHD a vlak
                   </h3>
                   <p className="mt-1 text-sm leading-relaxed text-stone-600">
-                    Nejbližší vlakové nádraží je v Doksech (cca 4 km), odkud jezdí
-                    sezónní autobusová linka směrem k jezerům. Na vyžádání zajistíme
-                    i vyzvednutí skupin z nádraží.
+                    Nejbližší vlakové i autobusové spojení je ve Stráži pod Ralskem
+                    (cca 5 km), kde najdete i obchody a bankomat. Na vyžádání
+                    zajistíme i vyzvednutí skupin z nádraží.
                   </p>
                 </div>
               </div>
@@ -144,14 +144,24 @@ export default function KontaktPage() {
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-2xl shadow-card">
-            <iframe
-              src={contactInfo.mapEmbedUrl}
-              title="Mapa – Kemp Caramba, Hamry na Jezeře"
-              className="h-full min-h-[420px] w-full border-0"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+          <div className="space-y-3">
+            <div className="overflow-hidden rounded-2xl shadow-card">
+              <iframe
+                src={contactInfo.mapEmbedUrl}
+                title="Mapa – Kemp Caramba, Hamr na Jezeře"
+                className="h-full min-h-[420px] w-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </div>
+            <div className="flex flex-wrap gap-4 text-sm font-medium text-forest-700">
+              <a href={contactInfo.mapLinkUrl} target="_blank" rel="noreferrer" className="hover:text-forest-900">
+                Otevřít na Mapy.cz
+              </a>
+              <a href={contactInfo.googleMapsUrl} target="_blank" rel="noreferrer" className="hover:text-forest-900">
+                Otevřít na Google Maps
+              </a>
+            </div>
           </div>
         </div>
       </section>

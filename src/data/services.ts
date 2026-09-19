@@ -2,15 +2,13 @@ import {
   Ban,
   PartyPopper,
   Sailboat,
-  ShieldCheck,
   Tent,
   Trees,
   Users,
   Volleyball,
-  Waves,
 } from "lucide-react";
 
-import type { EventPromo, HighlightItem, ServiceItem } from "@/types";
+import type { ServiceItem } from "@/types";
 
 /**
  * Kompletní přehled služeb a prvků areálu – kempování, sport, půjčovna a dětský ráj.
@@ -126,55 +124,6 @@ export const services: ServiceItem[] = [
     ],
   },
 ];
-
-/**
- * 4 pilíře kempu zobrazené na úvodní stránce v sekci Highlights.
- */
-export const highlights: HighlightItem[] = [
-  {
-    id: "voda",
-    title: "Kempování přímo u vody",
-    description:
-      "Parcely a chatky jen kousek od písčité pláže s čistou vodou Hamerského jezera.",
-    icon: Waves,
-  },
-  {
-    id: "zazemi",
-    title: "Bohatá sportovní půjčovna",
-    description:
-      "Paddleboardy, šlapadla, kánoe i volejbalové hřiště – vyžití pro celý den.",
-    icon: Sailboat,
-  },
-  {
-    id: "deti",
-    title: "Rodinné a dětské zázemí",
-    description:
-      "Hřiště, animace a bezpečný uzavřený areál pro klidnou dovolenou s dětmi.",
-    icon: ShieldCheck,
-  },
-  {
-    id: "skoly",
-    title: "Programy pro školy a party",
-    description:
-      "Školní výlety, adaptační kurzy a soukromé akce s kompletním zázemím.",
-    icon: PartyPopper,
-  },
-];
-
-/**
- * Promo banner pro sezónní událost na úvodní stránce.
- */
-export const eventPromo: EventPromo = {
-  title: "Víkendový kemp s programem pro děti",
-  description:
-    "Přijeďte na prodloužený víkend plný animačních her, večerního táboráku s kytarou a sportovních turnajů pro celou rodinu. Kapacita omezena, doporučujeme včasnou rezervaci.",
-  dateLabel: "14. – 16. června 2025",
-  ctaLabel: "Zjistit více a rezervovat",
-  ctaHref: "/kontakt",
-  image:
-    "https://images.unsplash.com/photo-1508873881324-c92a3fc536ba?auto=format&fit=crop&w=1200&q=80",
-  imageAlt: "Rodina s dětmi u táboráku během letního večera v kempu",
-};
 
 /**
  * Zákaz volně pobíhajících psů mimo vodítko – využito v pravidlech pobytu.

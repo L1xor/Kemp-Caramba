@@ -1,17 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, MapPin } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 /**
- * Velké hero úvodní stránky s fotografií Hamerského jezera, tmavým gradientem,
+ * Velké hero úvodní stránky s fotografií areálu kempu, tmavým gradientem,
  * hlavním claimem a rychlými rozcestníky.
  */
 export function Hero() {
   return (
     <section className="relative flex min-h-[88vh] items-end overflow-hidden sm:min-h-[92vh]">
       <Image
-        src="https://images.unsplash.com/photo-1439405326854-014607f694d7?auto=format&fit=crop&w=1200&q=80"
-        alt="Klidná hladina Hamerského jezera obklopená lesem při ranním slunci"
+        src="/images/hero-kemp.jpg"
+        alt="Letecký pohled na areál kempu Caramba s chatkami obklopenými lesem"
         fill
         priority
         sizes="100vw"
@@ -20,12 +20,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-hero-gradient" aria-hidden="true" />
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-16 pt-32 sm:px-6 sm:pb-24 lg:px-8">
-        <span className="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-amber-100">
-          <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
-          Hamry na Jezeře, Máchův kraj
-        </span>
-
-        <h1 className="mt-6 max-w-3xl font-display text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
+        <h1 className="max-w-3xl font-display text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
           Pohoda a zážitky u Hamerského jezera
         </h1>
 

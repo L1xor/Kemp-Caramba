@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CalendarDays } from "lucide-react";
 
-import { eventPromo } from "@/data/services";
+import { cinemaPromo as eventPromo } from "@/data/campInfo";
 
 /**
  * Zvýrazněná promo karta pro sezónní událost, např. víkendový program pro děti.

@@ -9,7 +9,7 @@ export const siteConfig = {
   name: "Kemp Caramba",
   title: "Kemp Caramba – Pohoda a zážitky u Hamerského jezera",
   description:
-    "Kemp Caramba na Hamerském jezeře v Hamrech na Jezeře nabízí kempování u vody, půjčovnu paddleboardů a šlapadel, dětský ráj i programy pro školy a skupiny. Rezervujte si letní pobyt plný pohody.",
+    "Kemp Caramba u Hamerského jezera v Hamru na Jezeře nabízí bazén, saunu a vířivku, sportovní půjčovnu, letní kino i programy pro školy a skupiny. Rezervujte si letní pobyt plný pohody.",
   url: "https://www.kempcaramba.cz",
   locale: "cs_CZ",
 } as const;
@@ -61,19 +61,20 @@ export const contactInfo: ContactInfo = {
   phoneDisplay: "+420 602 123 456",
   email: "info@kempcaramba.cz",
   address: {
-    street: "Hamry na Jezeře 88",
-    city: "Doksy",
-    zip: "472 01",
+    street: "Hamr na Jezeře",
+    city: "Stráž pod Ralskem",
+    zip: "471 27",
     country: "Česká republika",
   },
   operator: "Caramba Camping s.r.o.",
   responsiblePerson: "Petr Novák, provozní manažer kempu",
   mapEmbedUrl:
-    "https://mapy.cz/zakladni?vlastni-body&x=14.6580000&y=50.5510000&z=15&source=coor&id=14.658%2C50.551",
-  mapLinkUrl: "https://mapy.cz/zakladni?q=Hamry%20na%20Jeze%C5%99e",
+    "https://frame.mapy.cz/s/jujejojalo",
+  mapLinkUrl: "https://mapy.com/s/jujejojalo",
+  googleMapsUrl: "https://maps.app.goo.gl/un1b1Amombd2KhFs7",
   coordinates: {
-    lat: 50.551,
-    lng: 14.658,
+    lat: 50.701123,
+    lng: 14.838456,
   },
 };
 

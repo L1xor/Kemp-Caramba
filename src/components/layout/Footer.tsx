@@ -23,8 +23,8 @@ export function Footer() {
             </span>
           </div>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-stone-400">
-            Kemp Caramba leží přímo u břehu Hamerského jezera v Hamrech na Jezeře,
-            obklopený borovými lesy Máchova kraje. Nabízíme kempování u vody,
+            Kemp Caramba leží přímo u břehu Hamerského jezera v Hamru na Jezeře,
+            obklopený borovými lesy. Nabízíme kempování u vody,
             bohatou sportovní půjčovnu, dětský ráj i programy pro školy a skupiny.
           </p>
           <div className="mt-6 flex items-center gap-3">

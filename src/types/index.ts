@@ -35,6 +35,7 @@ export interface ContactInfo {
   responsiblePerson: string;
   mapEmbedUrl: string;
   mapLinkUrl: string;
+  googleMapsUrl: string;
   coordinates: {
     lat: number;
     lng: number;

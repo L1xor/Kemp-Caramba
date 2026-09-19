@@ -1,4 +1,4 @@
-import { highlights } from "@/data/services";
+import { highlights } from "@/data/campInfo";
 import { SectionHeading } from "@/components/shared/SectionHeading";
 
 /**
