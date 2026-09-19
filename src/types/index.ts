@@ -33,8 +33,6 @@ export interface ContactInfo {
   };
   operator: string;
   responsiblePerson: string;
-  mapEmbedUrl: string;
-  mapLinkUrl: string;
   googleMapsUrl: string;
   coordinates: {
     lat: number;

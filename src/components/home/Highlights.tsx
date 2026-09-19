@@ -8,8 +8,7 @@ export function Highlights() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
       <SectionHeading
-        eyebrow="Proč Caramba"
-        title="Čtyři pilíře, na kterých stavíme"
+        title="U nás se nudit nebudete"
         subtitle="Ať jedete se stanem, chatkou nebo jako celá školní třída, v kempu Caramba najdete kompletní zázemí pro pohodovou dovolenou u vody."
         align="center"
         className="mx-auto"

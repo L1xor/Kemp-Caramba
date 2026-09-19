@@ -68,9 +68,6 @@ export const contactInfo: ContactInfo = {
   },
   operator: "Caramba Camping s.r.o.",
   responsiblePerson: "Petr Novák, provozní manažer kempu",
-  mapEmbedUrl:
-    "https://frame.mapy.cz/s/jujejojalo",
-  mapLinkUrl: "https://mapy.com/s/jujejojalo",
   googleMapsUrl: "https://maps.app.goo.gl/un1b1Amombd2KhFs7",
   coordinates: {
     lat: 50.701123,

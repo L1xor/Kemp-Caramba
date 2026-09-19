@@ -15,7 +15,7 @@ const contactCards = [
     title: "Adresa kempu",
     value: `${contactInfo.address.street}, ${contactInfo.address.zip} ${contactInfo.address.city}`,
     icon: MapPin,
-    href: contactInfo.mapLinkUrl,
+    href: contactInfo.googleMapsUrl,
   },
   {
     title: "Telefon",
@@ -147,7 +147,7 @@ export default function KontaktPage() {
           <div className="space-y-3">
             <div className="overflow-hidden rounded-2xl shadow-card">
               <iframe
-                src={contactInfo.mapEmbedUrl}
+                src={`https://www.google.com/maps?q=${contactInfo.coordinates.lat},${contactInfo.coordinates.lng}&hl=cs&z=15&output=embed`}
                 title="Mapa – Kemp Caramba, Hamr na Jezeře"
                 className="h-full min-h-[420px] w-full border-0"
                 loading="lazy"
@@ -155,9 +155,6 @@ export default function KontaktPage() {
               />
             </div>
             <div className="flex flex-wrap gap-4 text-sm font-medium text-forest-700">
-              <a href={contactInfo.mapLinkUrl} target="_blank" rel="noreferrer" className="hover:text-forest-900">
-                Otevřít na Mapy.cz
-              </a>
               <a href={contactInfo.googleMapsUrl} target="_blank" rel="noreferrer" className="hover:text-forest-900">
                 Otevřít na Google Maps
               </a>

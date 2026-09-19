@@ -3,7 +3,6 @@ import {
   Fence,
   Gamepad2,
   Landmark,
-  MapPin,
   PartyPopper,
   ShoppingBag,
   Sparkles,
@@ -39,11 +38,6 @@ export const locationFacts: LocationFact[] = [
     label: "Obchody a bankomat",
     value: "Stráž pod Ralskem, 5 km",
     icon: ShoppingBag,
-  },
-  {
-    label: "GPS souřadnice",
-    value: "50.701123, 14.838456",
-    icon: MapPin,
   },
 ];
 
