@@ -11,7 +11,7 @@ export function Hero() {
     <section className="relative flex min-h-[88vh] items-end overflow-hidden sm:min-h-[92vh]">
       <Image
         src="/images/hero-kemp.jpg"
-        alt="Letecký pohled na areál kempu Caramba s chatkami obklopenými lesem"
+        alt="Slunný areál kempu Caramba s dřevěnými chatkami, volejbalovým hřištěm a stolem na ping-pong"
         fill
         priority
         sizes="100vw"

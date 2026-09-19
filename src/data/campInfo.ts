@@ -155,7 +155,7 @@ export const cinemaPromo: EventPromo = {
   ctaLabel: "Zjistit více o programu",
   ctaHref: "/kontakt",
   image: "/images/hero-kemp.jpg",
-  imageAlt: "Večerní atmosféra areálu kempu Caramba s chatkami mezi stromy",
+  imageAlt: "Areál kempu Caramba s dřevěnými chatkami a sportovištěm za slunečného dne",
 };
 
 /**
